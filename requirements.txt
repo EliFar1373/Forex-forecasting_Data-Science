@@ -9,4 +9,5 @@ yfinance==0.2.37
 SQLAlchemy==2.0.25
 statsmodels
 tensorflow==2.20.0
+streamlit
 

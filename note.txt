@@ -11,3 +11,15 @@ or
 python -m streamlit run app.py
 
 "C:\Users\elham\OneDrive\Desktop\IT project\Data analyst and data scientist 2\Forex currency prediction"
+
+
+
+docker build -t myapp .
+docker run myapp
+
+
+# Run the container and map Streamlit port 8501
+
+docker run -p 8501:8501 app.py
+
+http://localhost:8501
