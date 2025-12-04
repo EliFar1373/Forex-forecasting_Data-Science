@@ -1,0 +1,19 @@
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore trained models
+models/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore other large or temporary files
+*.h5
+*.pkl

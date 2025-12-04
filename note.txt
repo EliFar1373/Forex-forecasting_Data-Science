@@ -1,0 +1,13 @@
+1- Forex Api
+2- build your database
+
+python -m venv venv
+venv\Scripts\activate
+
+pip install streamlit pandas numpy scikit-learn sqlalchemy seaborn matplotlib tensorflow
+streamlit run app.py
+
+or 
+python -m streamlit run app.py
+
+"C:\Users\elham\OneDrive\Desktop\IT project\Data analyst and data scientist 2\Forex currency prediction"
