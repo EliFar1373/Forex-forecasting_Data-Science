@@ -10,16 +10,30 @@ streamlit run app.py
 or 
 python -m streamlit run app.py
 
-"C:\Users\elham\OneDrive\Desktop\IT project\Data analyst and data scientist 2\Forex currency prediction"
+
+##check internet 
+docker run -it appnew bash
+ping yahoo.com -c 4
+curl -I https://query1.finance.yahoo.com/v8/finance/chart/GBPUSD=X
+
 
 
 
 docker build -t myapp .
-docker run myapp
+docker run myapp 
+docker run -p 8501:8501 myapp
 
 
 # Run the container and map Streamlit port 8501
 
-docker run -p 8501:8501 app.py
+docker run -p 8501:8501 ap
 
 http://localhost:8501
+
+
+
+cd 
+
+C:\Users\Public\project>venv\Scripts\activate
+
+(venv) C:\Users\Public\project>streamlit run app.py --server.port 8502
